@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script id="versionArea" type="text/javascript">
+//<![CDATA[
+var version = {title: "TiddlyWiki", major: 2, minor: 8, revision: 1, date: new Date("June 23, 2013"), extensions: {}};
+
+//]]>
+</script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="copyright" content="
+TiddlyWiki created by Jeremy Ruston, (jeremy [at] osmosoft [dot] com)
+
+Copyright (c) Jeremy Ruston 2004-2007
+Copyright (c) UnaMesa Association 2007-2012
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or other
+materials provided with the distribution.
+
+Neither the name of the UnaMesa Association nor the names of its contributors may be
+used to endorse or promote products derived from this software without specific
+prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+" />
+<!--PRE-HEAD-START-->
+<!--{{{-->
+<link href="/bags/guoqin520_public/tiddlers.atom" rel="alternate"
+	type="application/atom+xml" title="guoqin520's public feed" />
+<link rel="canonical" href="http://guoqin520.tiddlyspace.com/" />
+<!--}}}-->
+<!--PRE-HEAD-END-->
+<title>
+guoqin520 - a TiddlySpace
+</title>
+<style id="styleArea" type="text/css">
+#saveTest {display:none;}
+#messageArea {display:none;}
+#copyright {display:none;}
+#storeArea {display:none;}
+#storeArea div {padding:0.5em; margin:1em 0em 0em 0em; border-color:#fff #666 #444 #ddd; border-style:solid; border-width:2px; overflow:auto;}
+#shadowArea {display:none;}
+#javascriptWarning {width:100%; text-align:center; font-weight:bold; background-color:#dd1100; color:#fff; padding:1em 0em;}
+
+</style>
+<!--POST-HEAD-START-->
+
+<!--POST-HEAD-END-->
+</head>
+<body onload="main();" onunload="if(window.unload) unload();">
+<!--PRE-BODY-START-->
+
+<!--PRE-BODY-END-->
+<div id="copyright">
+Welcome to TiddlyWiki created by Jeremy Ruston; Copyright &copy; 2004-2007 Jeremy Ruston, Copyright &copy; 2007-2011 UnaMesa Association
+</div>
+<noscript>
+
+<div id="javascriptWarning">
+This page requires JavaScript to function properly.<br /><br />
+If you do not use JavaScript you may still <a href="/tiddlers">browse
+the content of this wiki</a>.
+</div>
+
+</noscript>
+<div id="saveTest"></div>
+<div id="backstageCloak"></div>
+<div id="backstageButton"></div>
+<div id="backstageArea"><div id="backstageToolbar"></div></div>
+<div id="backstage">
+	<div id="backstagePanel"></div>
+</div>
+<div id="contentWrapper"></div>
+<div id="contentStash"></div>
+<div id="shadowArea">
+<div title="ColorPalette">
+<pre>Background: #fff
+Foreground: #000
+PrimaryPale: #8cf
+PrimaryLight: #18f
+PrimaryMid: #04b
+PrimaryDark: #014
+SecondaryPale: #ffc
+SecondaryLight: #fe8
+SecondaryMid: #db4
+SecondaryDark: #841
+TertiaryPale: #eee
+TertiaryLight: #ccc
+TertiaryMid: #999
+TertiaryDark: #666
+Error: #f88
+</pre>
+</div>
+<div title="EditTemplate">
+<pre>&lt;!--{{{--&gt;
+&lt;div class='toolbar' macro='toolbar [[ToolbarCommands::EditToolbar]]'&gt;&lt;/div&gt;
+&lt;div class='title' macro='view title'&gt;&lt;/div&gt;
+&lt;div class='editor' macro='edit title'&gt;&lt;/div&gt;
+&lt;div macro='annotations'&gt;&lt;/div&gt;
+&lt;div class='editor' macro='edit text'&gt;&lt;/div&gt;
+&lt;div class='editor' macro='edit tags'&gt;&lt;/div&gt;&lt;div class='editorFooter'&gt;&lt;span macro='message views.editor.tagPrompt'&gt;&lt;/span&gt;&lt;span macro='tagChooser excludeLists'&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;!--}}}--&gt;
+</pre>
+</div>
+<div title="GettingStarted">
+<pre>To get started with this blank [[TiddlyWiki]], you'll need to modify the following tiddlers:
+* [[SiteTitle]] &amp; [[SiteSubtitle]]: The title and subtitle of the site, as shown above (after saving, they will also appear in the browser title bar)
+* [[MainMenu]]: The menu (usually on the left)
+* [[DefaultTiddlers]]: Contains the names of the tiddlers that you want to appear when the TiddlyWiki is opened
+You'll also need to enter your username for signing your edits: &lt;&lt;option txtUserName&gt;&gt;
+</pre>
+</div>
+<div title="ImportTiddlers">
+<pre>&lt;&lt;importTiddlers&gt;&gt;
+</pre>
+</div>
+<div title="MarkupPreHead">
+<pre>&lt;!--{{{--&gt;
+&lt;link rel='alternate' type='application/rss+xml' title='RSS' href='index.xml' /&gt;
+&lt;!--}}}--&gt;
+</pre>
+</div>
+<div title="OptionsPanel">
+<pre>These [[InterfaceOptions]] for customising [[TiddlyWiki]] are saved in your browser
+
+Your username for signing your edits. Write it as a [[WikiWord]] (eg [[JoeBloggs]])
+
+&lt;&lt;option txtUserName&gt;&gt;
+&lt;&lt;option chkSaveBackups&gt;&gt; [[SaveBackups]]
+&lt;&lt;option chkAutoSave&gt;&gt; [[AutoSave]]
+&lt;&lt;option chkRegExpSearch&gt;&gt; [[RegExpSearch]]
+&lt;&lt;option chkCaseSensitiveSearch&gt;&gt; [[CaseSensitiveSearch]]
+&lt;&lt;option chkAnimate&gt;&gt; [[EnableAnimations]]
+
+----
+Also see [[AdvancedOptions]]
+</pre>
+</div>
+<div title="PageTemplate">
+<pre>&lt;!--{{{--&gt;
+&lt;div class='header' role='banner' macro='gradient vert [[ColorPalette::PrimaryLight]] [[ColorPalette::PrimaryMid]]'&gt;
+&lt;div class='headerShadow'&gt;
+&lt;span class='siteTitle' refresh='content' tiddler='SiteTitle'&gt;&lt;/span&gt;&amp;nbsp;
+&lt;span class='siteSubtitle' refresh='content' tiddler='SiteSubtitle'&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class='headerForeground'&gt;
+&lt;span class='siteTitle' refresh='content' tiddler='SiteTitle'&gt;&lt;/span&gt;&amp;nbsp;
+&lt;span class='siteSubtitle' refresh='content' tiddler='SiteSubtitle'&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id='mainMenu' role='navigation' refresh='content' tiddler='MainMenu'&gt;&lt;/div&gt;
+&lt;div id='sidebar'&gt;
+&lt;div id='sidebarOptions' role='navigation' refresh='content' tiddler='SideBarOptions'&gt;&lt;/div&gt;
+&lt;div id='sidebarTabs' role='complementary' refresh='content' force='true' tiddler='SideBarTabs'&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id='displayArea' role='main'&gt;
+&lt;div id='messageArea'&gt;&lt;/div&gt;
+&lt;div id='tiddlerDisplay'&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--}}}--&gt;
+</pre>
+</div>
+<div 
